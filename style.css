@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.hero {
+    padding: 2em;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.scroll-btn, .theme-btn {
+    position: fixed;
+    bottom: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+    border-radius: 4px;
+}
+.scroll-btn.visible {
+    display: block;
+    right: 20px;
+}
+.theme-btn {
+    right: 70px;
+    display: block;
+}
+
+body.dark-theme {
+    background-color: #111;
+    color: #eee;
+}
